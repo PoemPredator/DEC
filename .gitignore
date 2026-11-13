@@ -1,0 +1,28 @@
+# MATLAB
+*.asv
+*.m~
+*.autosave
+slprj/
+codegen/
+*.slxc
+
+# 运行输出（图片、MAT 结果）
+results/*
+!results/.gitkeep
+
+# 气动数据（按项目约定单独提供）
+data/*.xlsx
+data/*.xls
+data/*.csv
+data/*.mat
+
+# 本地飞行器参数（严禁提交）
+data/model_params.mat
+
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Ӣ�ı��ð������ش����
+dist/
